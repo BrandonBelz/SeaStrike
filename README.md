@@ -6,6 +6,11 @@ Move to the appropriate directory and run
 python main.py
 ```
 
+If you are missing the dependency PySide6, you can simply run
+```
+pip install PySide6
+```
+
 Playing the game is pretty simple. Simply left click where you want to fire when it is your turn. 
 When the game first starts, you will be in ship-placement mode. In this game, ships are just contiguous collections of gray squares. When placing a ship, it will show as green when it can be placed there, and red when it cannot be. Right click to rotate a ship and left click to place it. You can also scroll through your ship inventory, but once a ship is placed it cannot be picked up again.
 
